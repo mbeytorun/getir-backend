@@ -1,0 +1,20 @@
+{
+  "name": "getir-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "mbeytorun",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "supertest": "^3.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.11"
+  }
+}
