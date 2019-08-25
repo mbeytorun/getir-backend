@@ -18,5 +18,6 @@ describe("POST /getrecords", () => {
     expect(record.statusCode).toBe(200);
 
     const response = await request(app).get("/getrecords");
+    expect(response.body.length).toBe(5);
   });
 });
